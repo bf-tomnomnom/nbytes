@@ -1,0 +1,15 @@
+# nbytes
+
+Remove the first and every Nth byte from a file.
+
+## Install
+
+```
+go install github.com/bf-tomnomnom/nbytes@latest
+```
+
+## Usage
+
+```
+cat yourfile.bin | nbytes -i 8192 > newfile.bin
+```
